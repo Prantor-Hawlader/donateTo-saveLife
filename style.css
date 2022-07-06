@@ -1,0 +1,167 @@
+body {
+  font-family: "Tinos", serif;
+  margin: 0;
+}
+
+.introduce-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Images/happy-children.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 0.5%;
+  padding-bottom: 25%;
+  text-align: center;
+}
+
+#orange-header {
+  font-size: 65px;
+  color: #ff4500;
+}
+
+#white-text {
+  font-size: larger;
+  color: #ffffff;
+}
+
+.button {
+  margin-top: 50px;
+}
+
+.link-button {
+  text-decoration: none;
+  color: crimson;
+  background-color: black;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.donate-section {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.black-header {
+  color: black;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.gray-text {
+  color: #696969;
+  font-size: 20px;
+}
+
+.box-items {
+  display: flex;
+  margin-left: 24%;
+}
+
+.box {
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+  width: 120px;
+  height: 80px;
+  border: 3px solid darkgreen;
+  border-radius: 4px;
+  margin-left: 1%;
+  padding-top: 35px;
+}
+#selected {
+  background-color: lightblue;
+}
+#amount-submit {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 1px solid gray;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.donate-plan-section {
+  text-align: center;
+}
+
+.flexible-container {
+  display: flex;
+  margin-top: 7%;
+}
+.plan-box {
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 70px 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+#helping-other {
+  background-color: cadetblue;
+}
+
+#map {
+  background-color: bisque;
+}
+
+#money-tree {
+  background-color: darkgrey;
+}
+
+#their-dream {
+  width: 50%;
+  text-align: center;
+  margin-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#child-running img {
+  border-radius: 10px;
+  padding-right: 30%;
+  padding-left: 20%;
+}
+
+.updates {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.email-submit {
+  display: flex;
+  margin-left: 482px;
+}
+
+#email-box {
+  border: none;
+  outline: none;
+  padding: 15px 10px;
+
+  background-color: lightblue;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+#subs-button {
+  background-color: crimson;
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: gray;
+  margin-top: 80px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+footer h1 {
+  color: crimson;
+  font-family: "Lobster", cursive;
+}
